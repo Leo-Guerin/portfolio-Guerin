@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léo Guerin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Léo <strong>Guerin</strong></div>
+            <ul>
+                <li><a href="#" class="nav-link active" data-page="about">À Propos</a></li>
+                <li><a href="#" class="nav-link" data-page="projets">Mes Projets</a></li>
+                <li><a href="#" class="nav-link" data-page="competences">Compétences</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE : À PROPOS ===== -->
+    <section id="about" class="page active">
+        <div class="about-hero">
+            <div class="about-photo-col">
+                <div class="about-photo-frame">
+                    <img src="moi.jpg" alt="Léo Guerin"
+                         onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='flex'">
+                    <div class="photo-placeholder">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                        <span>Votre Photo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text-col">
+                <span class="about-tag">Portfolio créatif</span>
+                <h1>Léo <span class="accent">Guerin</span></h1>
+                <p class="about-intro">Étudiant en première année de BUT Information Numérique dans les Organisations à l'IUT Bordeaux Montaigne, j'aime stimuler mon imagination ainsi que ma créativité. J'apprécie le travail en groupe et je suis toujours ouvert aux conseils afin d'apprendre au maximum. Très motivé par cette formation, je souhaite mettre ce que j'apprends en cours au service de projets concrets. Je cherche ainsi à développer mes compétences techniques. </p>
+                <div class="about-blocks">
+                    <div class="about-block">
+                        <h3>Mon parcours</h3>
+                        <p>Passionné par le sport depuis toujours, mon objectif est de devenir journaliste sportif. Dans un secteur qui se numérise à grande vitesse, je suis convaincu que la maîtrise des outils digitaux et la gestion de l'information sont devenues indispensables pour exercer ce métier.</p>
+                    </div>
+                    <div class="about-block">
+                        <h3>Mes objectifs </h3>
+                        <p>Mon objectif est de devenir commentateur sportif. J'ai choisi de réaliser les trois années de ce BUT pour acquérir des compétences numériques aujourd'hui indispensables, avant d'intégrer un Master en école de journalisme sur concours. Ma motivation est de maîtriser les nouveaux supports de diffusion pour transmettre ma passion du sport et faire vivre les matchs en direct.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">1+</span>
+                        <span class="stat-label">Années de formation</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num"></span>
+                        <span class="stat-label"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAGE : PROJETS ===== -->
+    <section id="projets" class="page">
+        <h1 class="page-title">Mes Projets</h1>
+
+        <div class="featured-projects">
+
+            <!-- Projet 1 -->
+            <div class="big-project">
+                <div class="image-box">
+                    <img src="Vrai pub.jpg" alt="Pub de parfum">
+                </div>
+                <div class="text-box">
+                    <span class="proj-tag">Photographie</span>
+                    <h2>Pub de parfum</h2>
+                    <p>Ce projet occupe une place particulière dans mon parcours. J'ai eu carte blanche pour réaliser une publicité factice pour le parfum de mon choix, ce qui m'a permis de laisser libre cours à mes idées et de tester mes propres choix artistiques. C'est à cette occasion que j'ai réellement accroché avec la photographie, un univers que j'ai découvert durant ma formation et qui me correspond énormément. Au-delà de la prise de vue, j'ai beaucoup appris sur la post-production et la retouche numérique via Adobe Photoshop.</p>
+                </div>
+            </div>
+
+            <!-- Projet 2 : Peaky Bikers+ vidéo -->
+            <div class="big-project">
+                <div class="image-box media-box">
+                    <img src="peaky.png">
+                       
+                </div>
+                <div class="text-box">
+                    <span class="proj-tag">Vidéo / Publicité</span>
+                    <h2>Générique Peaky Blinders</h2>
+                    <p>Ce projet, réalisé dans le cadre d'un cours d'anglais, consistait à concevoir un générique à but parodique de la série Peaky Blinders. Ce défi m'a permis d'affiner ma créativité, ma technique de prise de vue ainsi que ma gestion du travail en équipe. La principale difficulté a résidé dans la narration : adapter l'univers visuel très marqué de la série originale à un ton parodique nous a obligés à faire des choix créatifs forts pour rester percutants tout en respectant les codes de l'œuvre initiale.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MOSAÏQUE -->
+        <div class="mosaic-section">
+            <h2>Autres Réalisations</h2>
+            <div class="mosaic-grid">
+
+                <div class="mosaic-item"
+                     data-title="Couverture Lonely Planet"
+                     data-desc="Pour ce projet de création sur Adobe Illustrator, je me suis attaché à reproduire le plus fidèlement possible une couverture de guide Lonely Planet. L'idée était de décortiquer une maquette professionnelle pour la reconstruire de A à Z, en respectant chaque contrainte graphique. Cet exercice m'a poussé à être extrêmement précis sur les tracés à la plume et sur la hiérarchie typographique. Le plus gros défi a été de caler chaque détail au millimètre près pour que le rendu soit indiscernable de l'original. C'est une expérience qui m'a énormément appris sur la rigueur technique et sur la manière de s'approprier des codes visuels déjà établis pour garantir un résultat de qualité."
+                     onclick="openModal(this)">
+                    <div class="mosaic-image">
+                        <img src="planet.jpg" alt="Projet A">
+                        <div class="mosaic-overlay">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                            <span>Voir en grand</span>
+                        </div>
+                    </div>
+                    <div class="mosaic-text">
+                        <h4>Couverture Lonely Planet</h4>
+                        <p>L'objectif de ce projet était de reproduire à l'identique une couverture Lonely Planet sur Adobe Illustrator. Ce travail de précision m'a demandé de décortiquer une maquette professionnelle pour la reconstruire de A à Z, en respectant chaque détail au millimètre près.</p>
+                    </div>
+                </div>
+
+                <div class="mosaic-item"
+                     data-title="Affiche chasse aux oeufs"
+                     data-desc="Pour ce projet réalisé sur Adobe Illustrator, j'ai conçu une affiche événementielle destinée à une chasse aux œufs au Jardin Public de Bordeaux. L'objectif était de construire un univers visuel complet et cohérent en utilisant exclusivement l'illustration vectorielle. Ce travail m'a permis d'approfondir ma maîtrise de l'outil Plume et des formes géométriques pour créer des personnages et des décors personnalisés. J'ai porté une attention particulière à la théorie des couleurs pour obtenir un rendu vif et attractif, ainsi qu'à la hiérarchie de l'information pour rendre les détails pratiques (date, lieu) immédiatement lisibles. Cette expérience a été un excellent exercice pour allier créativité graphique et rigueur technique, tout en apprenant à adapter un message visuel à une cible familiale."
+                     onclick="openModal(this)">
+                    <div class="mosaic-image">
+                        <img src="illustrator .png" alt="Projet B">
+                        <div class="mosaic-overlay">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                            <span>Voir en grand</span>
+                        </div>
+                    </div>
+                    <div class="mosaic-text">
+                        <h4>Affiche chasse aux oeufs</h4>
+                        <p>Ce projet consistait à concevoir une affiche pour une chasse aux œufs de Pâques organisée au Jardin Public de Bordeaux. Réalisée sur Adobe Illustrator, l'idée était de créer un visuel ludique et coloré, en jouant sur des formes vectorielles simples et des typographies dynamiques pour capter l'attention des familles.</p>
+                    </div>
+                </div>
+
+                <div class="mosaic-item"
+                     data-title="Analyse d'un système d'information"
+                     data-desc="Réalisé en collaboration au sein d’un groupe de trois, ce projet consistait à analyser le système d’information de l’Université Bordeaux Montaigne pour en proposer une version optimisée. Ce travail a nécessité une phase importante de veille informationnelle et de benchmarking afin d'identifier les meilleures pratiques numériques dans le secteur de l'enseignement supérieur. En nous appuyant sur ce diagnostic, nous avons pu confronter les besoins des utilisateurs aux solutions technologiques actuelles pour imaginer un système plus fluide et performant. Ce projet a été un excellent exercice de travail collaboratif, renforçant ma capacité à transformer une analyse stratégique en une force de proposition concrète et innovante."
+                     onclick="openModal(this)">
+                    <div class="mosaic-image">
+                        <img src="analyse.png" alt="Projet C">
+                        <div class="mosaic-overlay">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                            <span>Voir en grand</span>
+                        </div>
+                    </div>
+                    <div class="mosaic-text">
+                        <h4>Analyse d'un système d'information</h4>
+                        <p>Réalisé en trio, ce projet consistait à analyser en profondeur le système d’information de l’Université Bordeaux Montaigne. Notre mission était de décortiquer les flux existants pour proposer des solutions d’optimisation concrètes. Ce travail a mobilisé nos capacités de diagnostic stratégique et de travail collaboratif pour imaginer un système plus fluide et mieux adapté aux besoins des utilisateurs.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODAL MOSAÏQUE ===== -->
+    <div id="mosaicModal" class="modal">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <div class="modal-image-col">
+                <img id="modalImg" src="" alt="">
+            </div>
+            <div class="modal-text-col">
+                <span class="modal-tag">Réalisation</span>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PAGE : COMPÉTENCES ===== -->
+    <section id="competences" class="page">
+        <h1 class="page-title">Compétences</h1>
+
+        <!-- BLOC 1 -->
+        <div class="skill-block">
+            <div class="skill-block-header">
+                <div class="skill-block-num">01</div>
+                <div>
+                    <h2 class="skill-block-title">Création & Production</h2>
+                    <p class="skill-block-sub">Du concept à la réalisation, maîtrise des outils créatifs</p>
+                </div>
+            </div>
+            <div class="skill-sub-grid">
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M3 9a9 9 0 0118 0v6a9 9 0 01-18 0V9z"/></svg>
+                    </div>
+                    <h3>Photographie</h3>
+                    <p>Prise de vue professionnelle, composition, éclairage, direction artistique et gestion des sessions photo de A à Z.</p>
+                    <div class="skill-pills">
+                        <span>Studio</span><span>Retouche</span><span>Direction</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><polygon points="10 9 15 12 10 15"/></svg>
+                    </div>
+                    <h3>Vidéo & Montage</h3>
+                    <p>Réalisation, tournage et montage de contenus vidéo publicitaires. Maîtrise du cadrage, rythme narratif et post-production.</p>
+                    <div class="skill-pills">
+                        <span>Tournage</span><span>Montage</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3>Post-production</h3>
+                    <p>Retouche avancée sous Photoshop, colorimétrie, compositing et création de visuels percutants pour campagnes publicitaires.</p>
+                    <div class="skill-pills">
+                        <span>Photoshop</span><span>Color</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOC 2 -->
+        <div class="skill-block">
+            <div class="skill-block-header">
+                <div class="skill-block-num">02</div>
+                <div>
+                    <h2 class="skill-block-title">Communication & Analyse</h2>
+                    <p class="skill-block-sub">Stratégie, message et impact auprès des audiences</p>
+                </div>
+            </div>
+            <div class="skill-sub-grid">
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 8h10M7 12h6"/></svg>
+                    </div>
+                    <h3>Communication Visuelle</h3>
+                    <p>Conception de supports cohérents et impactants : affiches, flyers, identité visuelle et contenus digitaux adaptés à chaque cible.</p>
+                    <div class="skill-pills">
+                        <span>Illustrator</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <h3>Veille informationelle</h3>
+                    <p>Stratégie de contenu sur les réseaux sociaux, analyse des performances, ciblage d'audience et création de campagnes engageantes.</p>
+                    <div class="skill-pills">
+                        <span>Social Media</span><span>Contenu</span><span>Analytics</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3>Gestion de Projet</h3>
+                    <p>Organisation, coordination d'équipes créatives, respect des délais et des briefs clients, de la conception à la livraison finale.</p>
+                    <div class="skill-pills">
+                        <span>Planning</span><span>Équipe</span><span>Brief</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOC 3 -->
+        <div class="skill-block">
+            <div class="skill-block-header">
+                <div class="skill-block-num">03</div>
+                <div>
+                    <h2 class="skill-block-title">Langues & Outils</h2>
+                    <p class="skill-block-sub">Les ressources qui renforcent ma pratique au quotidien</p>
+                </div>
+            </div>
+            <div class="skill-sub-grid">
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/><path d="M2 12h20"/></svg>
+                    </div>
+                    <h3>Anglais courant</h3>
+                    <p>Niveau courant à l'oral et à l'écrit. Capacité à mener des projets, rédiger des briefs et présenter des créations à l'international.</p>
+                    <div class="skill-pills">
+                        <span>B2/C1</span><span>Rédaction</span><span>Présentation</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <h3>Suite Adobe</h3>
+                    <p>Maîtrise complète de l'écosystème Adobe : Photoshop, Illustrator, InDesign, Premiere Pro et After Effects.</p>
+                    <div class="skill-pills">
+                        <span>Ps</span><span>Ai</span>
+                    </div>
+                </div>
+                <div class="skill-sub-card">
+                    <div class="skill-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                    </div>
+                    <h3>Outils Numériques</h3>
+                    <p>Canva, Notion, Google Workspace et outils de collaboration. Veille constante sur les nouvelles technologies créatives.</p>
+                    <div class="skill-pills">
+                        <span>Canva</span><span>Notion</span><span>Google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ===== PAGE : CONTACT ===== -->
+    <section id="contact" class="page">
+        <h1 class="page-title">Discutons de votre projet</h1>
+        <div class="contact-card">
+            <div class="contact-photo">
+                <img src="photo moi .jpg" alt="Léo Guerin">
+            </div>
+            <div class="contact-info">
+                <h2>Léo Guerin</h2>
+                <div class="info-line">
+                    <div class="info-icon">✉</div>
+                    <div>
+                        <span class="info-label">Email</span>
+                        <a href="mailto:guerin.leo02@gmail.com">guerin.leo02@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info-line">
+                    <div class="info-icon">✆</div>
+                    <div>
+                        <span class="info-label">Téléphone</span>
+                        <span>06 43 22 75 86</span>
+                    </div>
+                </div>
+                <div class="info-line">
+                    <div class="info-icon" style="font-size:11px;font-weight:700;letter-spacing:0;">in</div>
+                    <div>
+                        <span class="info-label">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/leo-guerin-9a157b3a5/" target="_blank">Linkedin: Léo Guerin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Léo Guerin — Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // ----- Navigation SPA -----
+        const navLinks = document.querySelectorAll('.nav-link');
+        const pages    = document.querySelectorAll('.page');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = this.dataset.page;
+                pages.forEach(p => p.classList.remove('active'));
+                navLinks.forEach(l => l.classList.remove('active'));
+                document.getElementById(target).classList.add('active');
+                this.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
+        // ----- Modal mosaïque -----
+        function openModal(item) {
+            const img   = item.querySelector('img').src;
+            const title = item.dataset.title;
+            const desc  = item.dataset.desc;
+            document.getElementById('modalImg').src = img;
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('modalDesc').textContent  = desc;
+            document.getElementById('mosaicModal').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('mosaicModal').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // ----- Upload vidéo Doritos -----
+        document.getElementById('videoUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const url = URL.createObjectURL(file);
+            const video = document.getElementById('doritosVideo');
+            video.src = url;
+            video.load();
+            video.play();
+        });
+    </script>
+
+</body>
+</html>
